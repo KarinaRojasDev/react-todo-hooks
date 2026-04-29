@@ -1,18 +1,85 @@
-# React + Vite
+# 🚀 TODO List App (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación de lista de tareas desarrollada con React + Vite como práctica de estado, componentes y hooks.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Funcionalidades
 
-## React Compiler
+- Crear tareas
+- Editar tareas
+- Eliminar tareas individuales
+- Marcar tareas como completadas (toggle)
+- Limpiar todas las tareas (CLEAR)
+- Restaurar tareas iniciales (RESET)
+- Validación de mínimo 6 caracteres
+- Mensajes de error y confirmación
+- Auto-limpieza del input tras 20 segundos
+- Precarga de datos desde JSON
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+## 🧠 Tecnologías
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS3
+- UUID
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Estructura
+
+src/
+- components/
+  - Form.jsx
+  - List.jsx
+  - Item.jsx
+  - Header.jsx
+  - Footer.jsx
+- lista.json
+- App.jsx
+- main.jsx
+
+---
+
+## ⚡ Instalación
+
+npm install
+
+---
+
+## 🚀 Ejecución en desarrollo
+
+npm run dev
+
+---
+
+## 📦 Build producción
+
+npm run build
+
+---
+
+## 🌐 Deploy en Netlify
+
+1. Subir proyecto a GitHub
+2. Ir a https://www.netlify.com/
+3. New site → Import from Git
+4. Seleccionar repositorio
+5. Configurar:
+   - Build command: npm run build
+   - Publish directory: dist
+6. Deploy
+
+---
+
+## 📌 Aprendizaje
+
+- useState
+- useEffect
+- Componentización
+- CRUD completo en React
+- Manejo de props
+- Separación de lógica y UI
